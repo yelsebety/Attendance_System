@@ -32,11 +32,8 @@ public class Servlet1 extends HttpServlet {
 		String x = request.getParameter("Email");
 		String y = request.getParameter("Password");
 		PrintWriter out = response.getWriter();
-		if(y.endsWith(".")) {
-			out.println("Ends with dot");
-			
-			
-		}
+		out.println("Welcome to the attendance System!!!");
+		
 		
 		
 	}

@@ -33,7 +33,7 @@ public class Servlet1 extends HttpServlet {
 		String y = request.getParameter("Password");
 		PrintWriter out = response.getWriter();
 		if(y.endsWith(".")) {
-			out.println("......");
+			out.println("Ends with dot");
 			
 			
 		}
